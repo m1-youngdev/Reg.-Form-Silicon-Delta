@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #b2bfd2;
+    font-family: Arial, sans-serif;
+
+}
+
+.logo{
+   width: 280px;
+   margin-top: 40px;
+   margin-bottom: 25px;
+}
+form{
+    /* border: 1px solid red; */
+    width: 55%;
+    background: white;
+    border-radius: 5px;
+}
+H1{
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: none;
+}
+p{
+    margin-left: 60px;
+    margin-top: none;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+span{
+    color: red;
+}
+input{
+    margin-left: 50px;
+    padding: 10px 50px;
+}
+select{
+    margin-left: 50px;
+    padding: 10px 25px;
+}
+#label1{
+    margin-left: 60px;
+    font-size: smaller;
+    color: grey;
+}
+#label2{
+    margin-left: 255px;
+    font-size: smaller;
+    color: grey;
+}
+#label3{
+    margin-left: 50px;
+    margin-right: 700px;
+    font-size: smaller;
+    color: grey;
+    
+}
+#label4{
+    position: relative;
+    font-size: smaller;
+    margin-left: 53px;
+    margin-right: 400px;
+    color: grey;
+}
+#label5{
+    position: relative;
+    right: 297px;
+    font-size: smaller;
+    margin-left: 350px;
+    margin-right: 0px;
+    color: grey;
+}
+#img2{
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#address{
+    padding: 10px 200px; 
+}
+#state{
+    padding: 10px 200px;
+}
+button{
+    background: rgb(66, 228, 93);
+    padding: 20px  70px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 250px;
+}

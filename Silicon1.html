@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Document</title>
+</head>
+<body>
+
+   <div class="logo-container">
+    <img src="img/Silicon delta img.jpg"
+    alt="Silicon Delta Logo"
+    class="logo">
+   </div>
+
+    <form>
+        <H1>SD Registration</H1>
+        <p>Student's Registration Form</p>
+        <hr>
+        <p><span>*</span></p>
+        <div>
+            <input type="text" id="first_name" name="first_name" required>
+            <input type="text" id="last_name" name="last_name" required>
+            <label for="first_name" id="label1">First name</label>
+            <label for="last_name" id="label2">Last name</label>
+        </div>
+        <div>
+            <p>Email <span>*</span></p>
+            <input type="email" id="email" name="email" required>
+            <label for="email" id="label3">example@example.com</label>
+        </div>
+        <div>
+            <p>Whatsapp Number <span>*</span></p>
+            <input type="number" id="whatsapp_number" name="whatsapp_number" placeholder="(000)000 000" required>
+            <label for="whatsapp_number"></label>
+        </div>
+        <div>
+            <p>Choose your School <span>*</span></p>
+            <label for="school"></label>
+            <select name="course">
+                <option value="">Please Select</option>
+                <option value="school_of_coding">School of Coding</option>
+                <option value="school_of_design">School of Design</option>
+                <option value="school_of_marketing">School of Marketing</option>
+                <option value="school_of_hardware_technologies">School of Hardware Technologies</option>
+            </select>
+        </div>
+        <div>
+            <p>Choose your Course <span>*</span></p>
+            <label for="course"></label>
+            <select name="course">
+                <option value="">Please Select</option>
+                <option value="front_end_development">Front End Development</option>
+                <option value="back_end_development">Back End Development</option>
+                <option value="fullstack_development">Full Stack Development</option>
+                <option value="mobile_app_development">Mobile App Development</option>
+                <option value="software_development">Software Development</option>
+                <option value="product_design">Product Design</option>
+                <option value="project_management">Project Management</option>
+                <option value="product_design">Product Design</option>
+                <option value="graphic_design">Graphic Design</option>
+                <option value="video_editing">Video Editing</option>
+                <option value="cybersecurity">Cybersecurity</option>
+                <option value="robotics_ai">Robotics/AI</option>
+                <option value="content_writing">Content Writing</option>
+                <option value="social_media_ads">Social Media ads</option>
+                <option value="mind_hack">Mind Hack</option>
+                <option value="loTs">loTs</option>
+                <option value="blockchain_academy">Blockchain Academy</option>
+            </select>
+        </div>
+        <div>
+            <p>Registration date <span>*</span></p>
+            <input type="text" id="reg_date" name="reg_date" placeholder="MM-DD-YYYY" required>
+            <label for="reg_date" id="label4">Date</label>
+        </div>
+        <img src="img/image_placeholder.png" id="img2">
+        <div>
+            <p>Student Address<span>*</span></p>
+            <input type="text" id="address" name="address" placeholder="Enter your Address" required>
+            <label for="address" id="label5">Street Address</label>
+        </div>
+        <div>
+            <p><span>*</span></p>
+            <input type="text" id="state" name="state" placeholder="Enter State/city" required>
+            <label for="state" id="label5">State / Province</label>
+        </div>
+        <hr>
+        <button>Submit</button>
+
+    </form>
+</body>
+</html>
